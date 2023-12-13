@@ -46,7 +46,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b2387c395f68fe4d8408c9ee78f50bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointer: {fileID: 8355388829843981213}
+  _pointer: {fileID: 8355388829843981213}
+  _timeBeforeTurn: 0.1
 --- !u!1 &3041755765974686889
 GameObject:
   m_ObjectHideFlags: 0
