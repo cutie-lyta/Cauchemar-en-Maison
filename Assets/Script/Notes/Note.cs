@@ -1,9 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class Note
+[Serializable]
+public class Note 
 {
     private GameObject _notedObject;
     private bool _isWronglyPlaced;

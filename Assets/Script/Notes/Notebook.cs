@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Notebook : MonoBehaviour
 {
-    [field: SerializeField]
-    private List<Note> _notes = new();
+    [SerializeField] private List<Note> _notes = new();
 
     //temporary variable
     public GameObject selectedObject;
