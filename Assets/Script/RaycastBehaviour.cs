@@ -19,10 +19,9 @@ public class RaycastBehaviour : MonoBehaviour
 
             // si on touche un objet en raycast (en pointant tout droit avec le forward)
             // on précise qu'il a été pointé (pour le test : à redéfinir)
-            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity))
+            if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, _objDistance))
             {
-                if (hit.distance <= _objDistance )
-                {Debug.Log($"Did hit {hit.collider.name}");}
+                Debug.Log($"Did hit {hit.collider.name}");
                 
             }
 
