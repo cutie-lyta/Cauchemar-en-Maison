@@ -1,8 +1,12 @@
+using System;
 using UnityEngine;
 
 public class RaycastBehaviour : MonoBehaviour
 {
     [SerializeField] private int _objDistance = 12;
+    [SerializeField] private Notebook _notebook;
+
+    public event Action<GameObject> OnHit;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,11 +23,12 @@ public class RaycastBehaviour : MonoBehaviour
             // on précise qu'il a été pointé (pour le test : à redéfinir)
             if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, _objDistance))
             {
-                Debug.Log($"Did hit {hit.collider.name}");
-                
+                Debug.Log($"Did hit {hit.collider.gameObject.tag}");
+                if(hit.collider.gameObject.tag == "Displaced")
+                {
+                    OnHit?.Invoke(hit.collider.gameObject);
+                }
             }
-
         }
-
     }
 }

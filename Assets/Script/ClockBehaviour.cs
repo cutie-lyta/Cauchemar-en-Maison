@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class ClockBehaviour : MonoBehaviour
 {
-    private bool _isPaused = false;
+    public bool IsPaused = false;
 
     [SerializeField] private Transform _pointer;
     [SerializeField] private float _timeBeforeTurn = 0.1f;
@@ -16,7 +16,7 @@ public class ClockBehaviour : MonoBehaviour
 
     IEnumerator _timerExecute()
     {
-        if (!_isPaused)
+        if (!IsPaused)
         {
             _pointer.rotation = Quaternion.Euler(0, 0, _pointer.rotation.eulerAngles.z - 1);
             if (_pointer.rotation.eulerAngles.z <= 0.05f)

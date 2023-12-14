@@ -1,23 +1,31 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Notebook : MonoBehaviour
 {
-    [SerializeField] private List<Note> _notes = new();
+    [field: SerializeField] public List<Note> Notes {get; private set;}
 
-    //temporary variable
-    public GameObject selectedObject;
-    public bool temporaryUI;
-
-    public void MakeNewNote()
+    [SerializeField] private RaycastBehaviour _raycastBehaviour;
+    [SerializeField] private NoteUI _noteUI;
+    public void MakeNewNote(GameObject objet)
     {
-        _notes.Add(new Note(selectedObject));
+        Notes.Add(new Note(objet));
+    }
+
+    private void OnHitReceived(GameObject gameObject)
+    {
+        _noteUI.ShowNoteUI(gameObject);
+    }
+
+    private void OnReportReceived(GameObject hittedObj)
+    {
+        MakeNewNote(hittedObj);
     }
 
     private void Start()
     {
-        MakeNewNote();
-        Debug.Log("NoteCreated");
+        Notes = new();
+        _raycastBehaviour.OnHit += OnHitReceived;
+        _noteUI.OnReport += OnReportReceived;
     }
 }
