@@ -1,7 +1,4 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 [Serializable]
@@ -12,9 +9,7 @@ public class Note
 
     public Note(GameObject notedObject)
     {
-        _isWronglyPlaced = false;
         _notedObject = notedObject;
     }
-
     
 }
