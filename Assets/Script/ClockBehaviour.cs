@@ -6,7 +6,7 @@ public class ClockBehaviour : MonoBehaviour
     private bool _isPaused = false;
 
     [SerializeField] private Transform _pointer;
-    [SerializeField] private float _timeBeforeTurn = 0.1f;
+    [SerializeField] private float _timeBeforeTurn = 0.1f; 
     
     // Start is called before the first frame update
     void Start()
