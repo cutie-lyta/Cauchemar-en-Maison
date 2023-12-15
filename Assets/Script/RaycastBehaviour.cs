@@ -4,7 +4,6 @@ using UnityEngine;
 public class RaycastBehaviour : MonoBehaviour
 {
     [SerializeField] private int _objDistance = 12;
-    [SerializeField] private Notebook _notebook;
 
     public event Action<GameObject> OnHit;
     // Start is called before the first frame update

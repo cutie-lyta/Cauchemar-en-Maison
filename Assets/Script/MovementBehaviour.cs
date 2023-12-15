@@ -29,8 +29,6 @@ public class MovementBehaviour : MonoBehaviour
         var dir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")); // on prend la direction
         _rb.velocity = transform.TransformDirection(dir * _speed); // on change la vélocité du rigid body pour faire déplacer le joueur en prenant en compte les collisions
 
-        print(dir.magnitude);
-        
         var source = this.GetComponent<AudioSource>();
 
         source.pitch = 0.5f + dir.magnitude/2;
