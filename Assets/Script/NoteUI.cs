@@ -21,7 +21,6 @@ public class NoteUI : MonoBehaviour
         this.gameObject.SetActive(true);
         UnityEngine.Cursor.lockState = CursorLockMode.None;
         _camMovementBehaviour.CameraActive = false;
-        _clockBehaviour.IsPaused = true;
     }
 
     public void HideNoteUI()
@@ -29,7 +28,6 @@ public class NoteUI : MonoBehaviour
         this.gameObject.SetActive(false);
         UnityEngine.Cursor.lockState = CursorLockMode.Locked;
         _camMovementBehaviour.CameraActive = true;
-        _clockBehaviour.IsPaused = false;
     }
 
     public void Report()
