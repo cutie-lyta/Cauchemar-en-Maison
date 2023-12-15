@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: mPack1
+  m_Name: mWall
   m_Shader: {fileID: 4800000, guid: e88aeddd2ef1f934d805981244872e27, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -22,7 +22,7 @@ Material:
   - _STEPVIARAMPTEXTURE_ON
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 1
+  m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2050
   stringTagMap:
     RenderType: Opaque
@@ -32,7 +32,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _BaseMap:
-        m_Texture: {fileID: 2800000, guid: ed03e6e16e8a36b488af00b0f749d3e9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
@@ -80,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: ed03e6e16e8a36b488af00b0f749d3e9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -130,13 +130,13 @@ Material:
     - _BumpScale: 0.3
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _Cull: 0
+    - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
-    - _DiffuseStep: 0
-    - _DitherTexelSize: 6.38
-    - _DitherThreshold: 0.99
+    - _DiffuseStep: -1
+    - _DitherTexelSize: 20
+    - _DitherThreshold: 1
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnabledHairSpec: 0
@@ -181,21 +181,21 @@ Material:
     - _QueueOffset: 0
     - _ReceiveShadows: 1
     - _RimEnabled: 1
-    - _RimLightAlign: 0.208
-    - _RimLightSmoothness: 0.165
+    - _RimLightAlign: 0.636
+    - _RimLightSmoothness: 0.517
     - _RimPower: 1
     - _Shininess: 0
     - _SizeFalloff: 0
-    - _Smoothness: 0.14142135
+    - _Smoothness: 0
     - _SmoothnessSource: 0
     - _SmoothnessTextureChannel: 0
     - _SpecClipMaskScale: 1
-    - _SpecShadowStrength: 0.524
+    - _SpecShadowStrength: 1
     - _SpecSource: 0
     - _SpecularClipStrength: 0
-    - _SpecularFalloff: 0.57
+    - _SpecularFalloff: 0
     - _SpecularHighlights: 0
-    - _SpecularSize: 0.637
+    - _SpecularSize: 1
     - _SpherizeNormalEnabled: 0
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
@@ -208,7 +208,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
     - _FaceFrontDirection: {r: 0, g: 0, b: 1, a: 0}
@@ -219,8 +219,8 @@ Material:
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineDistancFade: {r: -91.71826, g: 47.67801, b: 0, a: 0}
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadowColor: {r: 0.1981132, g: 0.058873262, b: 0.058873262, a: 0.593}
-    - _SpecColor: {r: 0.19999993, g: 0.19999993, b: 0.19999993, a: 0.14142135}
+    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _SpecColor: {r: 0.19999987, g: 0.19999987, b: 0.19999987, a: 0}
     - _SpherizeNormalOrigin: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &4064322452956035866
