@@ -24,12 +24,11 @@ public class MovementBehaviour : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         var dir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")); // on prend la direction
-        _rb.velocity = transform.TransformDirection(dir * _speed); // on change la vélocité du rigid body pour faire déplacer le joueur en prenant en compte les collisions
-
-        print(dir.magnitude);
+        dir = Vector3.ClampMagnitude(dir, 1);
+        _rb.velocity = transform.TransformDirection(dir * _speed) ; // on change la vélocité du rigid body pour faire déplacer le joueur en prenant en compte les collisions
         
         var source = this.GetComponent<AudioSource>();
 
