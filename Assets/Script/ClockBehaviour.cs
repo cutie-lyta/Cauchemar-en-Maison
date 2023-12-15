@@ -6,7 +6,7 @@ public class ClockBehaviour : MonoBehaviour
     public bool IsPaused = false;
 
     [SerializeField] private Transform _pointer;
-    [SerializeField] private float _timeBeforeTurn = 0.1f; 
+    [SerializeField] private float _minutes = 5f; 
     
     // Start is called before the first frame update
     void Start()
@@ -25,7 +25,7 @@ public class ClockBehaviour : MonoBehaviour
                 yield return null;
             }
         }
-        yield return new WaitForSeconds(_timeBeforeTurn);
+        yield return new WaitForSeconds(_minutes*60 / 360);
         StartCoroutine(_timerExecute());
     }
 }
