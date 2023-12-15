@@ -12,6 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _EMISSION
   - _GLOSSINESS_FROM_BASE_ALPHA
   - _HALFTONESHAPE_DOT
   - _OUTLINE
@@ -20,7 +21,7 @@ Material:
   m_InvalidKeywords:
   - _SPECULARHIGHLIGHTS_OFF
   - _STEPVIARAMPTEXTURE_ON
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: 2045
@@ -190,12 +191,12 @@ Material:
     - _SmoothnessSource: 1
     - _SmoothnessTextureChannel: 0
     - _SpecClipMaskScale: 1
-    - _SpecShadowStrength: 1
+    - _SpecShadowStrength: 0.524
     - _SpecSource: 0
     - _SpecularClipStrength: 0
-    - _SpecularFalloff: 0.44
+    - _SpecularFalloff: 0.57
     - _SpecularHighlights: 0
-    - _SpecularSize: 1
+    - _SpecularSize: 0.637
     - _SpherizeNormalEnabled: 0
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
@@ -210,16 +211,16 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0.14142135}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
     - _FaceFrontDirection: {r: 0, g: 0, b: 1, a: 0}
     - _FaceRightDirection: {r: 1, g: 0, b: 0, a: 0}
     - _HairSpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _HalfToneColor: {r: 0, g: 0, b: 0, a: 1}
     - _HatchingColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineDistancFade: {r: -200, g: 200, b: 0, a: 0}
+    - _OutlineDistancFade: {r: -91.71826, g: 47.67801, b: 0, a: 0}
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowColor: {r: 0.1981132, g: 0.058873262, b: 0.058873262, a: 0.593}
     - _SpecColor: {r: 0, g: 0, b: 0, a: 0.14142135}
     - _SpherizeNormalOrigin: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

@@ -12,13 +12,15 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _EMISSION
   - _HALFTONESHAPE_DOT
   - _OUTLINE
   - _RIMLIGHTING_ON
   - _SPECULAR_COLOR
   m_InvalidKeywords:
   - _SPECULARHIGHLIGHTS_OFF
-  m_LightmapFlags: 4
+  - _STEPVIARAMPTEXTURE_ON
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 1
   m_CustomRenderQueue: 2050
@@ -188,18 +190,18 @@ Material:
     - _SmoothnessSource: 0
     - _SmoothnessTextureChannel: 0
     - _SpecClipMaskScale: 1
-    - _SpecShadowStrength: 1
+    - _SpecShadowStrength: 0.524
     - _SpecSource: 0
     - _SpecularClipStrength: 0
-    - _SpecularFalloff: 0.44
+    - _SpecularFalloff: 0.57
     - _SpecularHighlights: 0
-    - _SpecularSize: 0.674
+    - _SpecularSize: 0.637
     - _SpherizeNormalEnabled: 0
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
     - _StencilComp: 0
     - _StencilRef: 0
-    - _StepViaRampTexture: 0
+    - _StepViaRampTexture: 1
     - _Surface: 0
     - _UVSec: 0
     - _UseRampColor: 0
@@ -208,16 +210,16 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0.8113208, g: 0.8113208, b: 0.8113208, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
     - _FaceFrontDirection: {r: 0, g: 0, b: 1, a: 0}
     - _FaceRightDirection: {r: 1, g: 0, b: 0, a: 0}
     - _HairSpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _HalfToneColor: {r: 0, g: 0, b: 0, a: 1}
     - _HatchingColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
-    - _OutlineDistancFade: {r: -200, g: 200, b: 0, a: 0}
+    - _OutlineDistancFade: {r: -91.71826, g: 47.67801, b: 0, a: 0}
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}
-    - _ShadowColor: {r: 0, g: 0, b: 0, a: 1}
+    - _ShadowColor: {r: 0.1981132, g: 0.058873262, b: 0.058873262, a: 0.593}
     - _SpecColor: {r: 0.19999993, g: 0.19999993, b: 0.19999993, a: 0.14142135}
     - _SpherizeNormalOrigin: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
