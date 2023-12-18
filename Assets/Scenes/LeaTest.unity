@@ -3045,6 +3045,8 @@ MonoBehaviour:
   _objets:
   - pointer: {fileID: 0}
     transform: {fileID: 1697842393}
+  _poofPrefabs: {fileID: 0}
+  _pffPrefabs: {fileID: 0}
 --- !u!4 &1895755826
 Transform:
   m_ObjectHideFlags: 0
@@ -3345,8 +3347,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79099b6d895ba374a81073daced796e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objDistance: 15
-  _notebook: {fileID: 0}
+  _objDistance: 12
 --- !u!114 &1527435173879043266
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3359,8 +3360,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3315a872d35e64741aac3701908e606d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mouseSensitivity: 200
-  playerBody: {fileID: 3119473124811627842}
+  _mouseSensitivity: 250
+  _smooth: 0.2
+  _playerBody: {fileID: 3119473124811627842}
 --- !u!82 &1636964544316638904
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3739,7 +3741,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3627006118639983011}
   serializedVersion: 4
-  m_Mass: 100
+  m_Mass: 1
   m_Drag: 1
   m_AngularDrag: 0.3
   m_CenterOfMass: {x: 0, y: 0, z: 0}
