@@ -211,6 +211,7 @@ Material:
     - _RimLightSmootness: 0
     - _RimPower: 1
     - _SPECULARHIGHLIGHTS: 0
+    - _Saturation: 3
     - _ShadowPatternSize: 0.3
     - _ShadowStrength: 0.2
     - _Shininess: 0

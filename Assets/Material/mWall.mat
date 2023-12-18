@@ -186,6 +186,7 @@ Material:
     - _RimLightAlign: 0.636
     - _RimLightSmoothness: 0.517
     - _RimPower: 1
+    - _Saturation: 0.371
     - _ShadowStrength: 0.52
     - _Shininess: 0
     - _SizeFalloff: 0
