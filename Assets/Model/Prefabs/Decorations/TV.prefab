@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8107826717036505994}
   - component: {fileID: 1414448566636612987}
   - component: {fileID: 8518201058137852655}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: TV
   m_TagString: Untagged
   m_Icon: {fileID: 0}

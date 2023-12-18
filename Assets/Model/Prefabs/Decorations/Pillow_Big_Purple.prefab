@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7154611138217102167}
   - component: {fileID: 8616273144571134034}
   - component: {fileID: -6791671255767403907}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Pillow_Big_Purple
   m_TagString: Untagged
   m_Icon: {fileID: 0}

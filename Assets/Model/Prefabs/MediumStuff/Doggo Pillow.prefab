@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6047002012126084733}
   - component: {fileID: 5210384344192549842}
   - component: {fileID: -1497683785453625844}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Doggo Pillow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -188,7 +188,7 @@ Material:
     - _RimLightAlign: 0.208
     - _RimLightSmoothness: 0.165
     - _RimPower: 1
-    - _ShadowStrength: 0.2
+    - _ShadowStrength: 0.05
     - _Shininess: 0
     - _SizeFalloff: 0
     - _Smoothness: 0.14142135
@@ -224,7 +224,7 @@ Material:
     - _HairSpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _HalfToneColor: {r: 0, g: 0, b: 0, a: 1}
     - _HatchingColor: {r: 0, g: 0, b: 0, a: 1}
-    - _LightDir: {r: -1.68, g: 28.94, b: -0.2, a: 0}
+    - _LightDir: {r: -0.3, g: 21.26, b: -13.6, a: 0}
     - _OutlineColor: {r: 0, g: 0, b: 0, a: 1}
     - _OutlineDistancFade: {r: -91.71826, g: 47.67801, b: 0, a: 0}
     - _RimColor: {r: 0, g: 0, b: 0, a: 1}

@@ -183,7 +183,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -918961547205047766, guid: bea99a906ebdc774fa7c8cda143af288, type: 3}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 2100000, guid: 8e0cd3722c0f9434bb0056cfaabc7b32, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -241,7 +241,7 @@ GameObject:
   - component: {fileID: 23409074}
   - component: {fileID: 23409073}
   - component: {fileID: 23409075}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -283,8 +283,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -511,7 +511,7 @@ GameObject:
   - component: {fileID: 103059966}
   - component: {fileID: 103059965}
   - component: {fileID: 103059967}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (18)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -618,7 +618,7 @@ GameObject:
   - component: {fileID: 112801057}
   - component: {fileID: 112801056}
   - component: {fileID: 112801058}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -731,7 +731,7 @@ GameObject:
   - component: {fileID: 138411421}
   - component: {fileID: 138411420}
   - component: {fileID: 138411422}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (28)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -773,8 +773,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -850,7 +850,7 @@ GameObject:
   - component: {fileID: 164225266}
   - component: {fileID: 164225265}
   - component: {fileID: 164225267}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -892,8 +892,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -957,7 +957,7 @@ GameObject:
   - component: {fileID: 180039828}
   - component: {fileID: 180039827}
   - component: {fileID: 180039829}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (21)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1182,7 +1182,7 @@ GameObject:
   - component: {fileID: 255698090}
   - component: {fileID: 255698089}
   - component: {fileID: 255698091}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1307,7 +1307,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 962b0755aedad9c4f91c1f95ba320f57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _raycast: {fileID: 1809943821}
+  _raycast: {fileID: 2045865987}
   _objets: []
   _poofPrefabs: {fileID: 1121496728158200637, guid: c225d13aa67a8bf43b1cb88fde8eb1df,
     type: 3}
@@ -1437,7 +1437,7 @@ GameObject:
   - component: {fileID: 300246071}
   - component: {fileID: 300246070}
   - component: {fileID: 300246072}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1479,8 +1479,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1833,7 +1833,7 @@ GameObject:
   - component: {fileID: 355795240}
   - component: {fileID: 355795239}
   - component: {fileID: 355795241}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1875,8 +1875,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2029,7 +2029,7 @@ GameObject:
   - component: {fileID: 381096399}
   - component: {fileID: 381096398}
   - component: {fileID: 381096400}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2071,8 +2071,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2299,7 +2299,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ea188507430166b43a00ae0b334e4360, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e0cd3722c0f9434bb0056cfaabc7b32, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2323,7 +2323,7 @@ GameObject:
   - component: {fileID: 397576314}
   - component: {fileID: 397576313}
   - component: {fileID: 397576315}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2365,8 +2365,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2638,13 +2638,13 @@ PrefabInstance:
     - target: {fileID: 6447775083793054799, guid: 5d92dd406f7e65049b295a30fd63b115,
         type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6447775083793054799, guid: 5d92dd406f7e65049b295a30fd63b115,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 3cfafb6d67bb6b54cb7a0be006deb0d3, type: 2}
+      objectReference: {fileID: 2100000, guid: 8e0cd3722c0f9434bb0056cfaabc7b32, type: 2}
     - target: {fileID: 6640160729053551429, guid: 5d92dd406f7e65049b295a30fd63b115,
         type: 3}
       propertyPath: m_Name
@@ -2881,7 +2881,7 @@ GameObject:
   - component: {fileID: 516218497}
   - component: {fileID: 516218496}
   - component: {fileID: 516218498}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2923,8 +2923,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2976,6 +2976,119 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -6514366393094751878, guid: 710e224ce11b4584591ff37bc5566b3b, type: 3}
+--- !u!1001 &519022838
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 220937670787283267, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.006
+      objectReference: {fileID: 0}
+    - target: {fileID: 220937670787283267, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.605
+      objectReference: {fileID: 0}
+    - target: {fileID: 220937670787283267, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.825
+      objectReference: {fileID: 0}
+    - target: {fileID: 1595192010569577271, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5060006
+      objectReference: {fileID: 0}
+    - target: {fileID: 1595192010569577271, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.605
+      objectReference: {fileID: 0}
+    - target: {fileID: 1595192010569577271, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.825002
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942757160152214106, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942757160152214106, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942757160152214106, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942757160152214106, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.15994893
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942757160152214106, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942757160152214106, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.98712534
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942757160152214106, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942757160152214106, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942757160152214106, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 192.515
+      objectReference: {fileID: 0}
+    - target: {fileID: 3942757160152214106, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260637803228756100, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.5060006
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260637803228756100, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.605
+      objectReference: {fileID: 0}
+    - target: {fileID: 4260637803228756100, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 4.825002
+      objectReference: {fileID: 0}
+    - target: {fileID: 7373878034470473661, guid: 28dfdf56114ebbd439935270b854f3e8,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerBody
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28dfdf56114ebbd439935270b854f3e8, type: 3}
 --- !u!1 &521886865
 GameObject:
   m_ObjectHideFlags: 0
@@ -3026,7 +3139,7 @@ GameObject:
   - component: {fileID: 538073510}
   - component: {fileID: 538073509}
   - component: {fileID: 538073511}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3068,8 +3181,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3133,7 +3246,7 @@ GameObject:
   - component: {fileID: 565524891}
   - component: {fileID: 565524890}
   - component: {fileID: 565524892}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (29)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3175,8 +3288,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3240,7 +3353,7 @@ GameObject:
   - component: {fileID: 584169849}
   - component: {fileID: 584169848}
   - component: {fileID: 584169850}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (15)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3282,8 +3395,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3347,7 +3460,7 @@ GameObject:
   - component: {fileID: 616221212}
   - component: {fileID: 616221211}
   - component: {fileID: 616221213}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3389,8 +3502,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4212,7 +4325,7 @@ GameObject:
   - component: {fileID: 798386404}
   - component: {fileID: 798386403}
   - component: {fileID: 798386405}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (24)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4254,8 +4367,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4447,7 +4560,7 @@ GameObject:
   - component: {fileID: 851222607}
   - component: {fileID: 851222606}
   - component: {fileID: 851222608}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4554,7 +4667,7 @@ GameObject:
   - component: {fileID: 860082246}
   - component: {fileID: 860082245}
   - component: {fileID: 860082247}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (16)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4596,8 +4709,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4779,7 +4892,7 @@ GameObject:
   - component: {fileID: 882959206}
   - component: {fileID: 882959205}
   - component: {fileID: 882959207}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4821,8 +4934,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5099,7 +5212,7 @@ GameObject:
   - component: {fileID: 926736692}
   - component: {fileID: 926736691}
   - component: {fileID: 926736693}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (25)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5141,8 +5254,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5312,7 +5425,7 @@ GameObject:
   - component: {fileID: 958781425}
   - component: {fileID: 958781424}
   - component: {fileID: 958781426}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5354,8 +5467,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5419,7 +5532,7 @@ GameObject:
   - component: {fileID: 969087537}
   - component: {fileID: 969087536}
   - component: {fileID: 969087538}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (22)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5461,8 +5574,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5671,6 +5784,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8300126619101450399, guid: 595add18fd6341246a8283cde6392528,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8300126619101450399, guid: 595add18fd6341246a8283cde6392528,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 8e0cd3722c0f9434bb0056cfaabc7b32, type: 2}
     - target: {fileID: 9018921012413631248, guid: 595add18fd6341246a8283cde6392528,
         type: 3}
       propertyPath: m_Name
@@ -5783,7 +5906,7 @@ GameObject:
   - component: {fileID: 1030370161}
   - component: {fileID: 1030370160}
   - component: {fileID: 1030370162}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (27)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5825,8 +5948,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6103,7 +6226,7 @@ GameObject:
   - component: {fileID: 1076678540}
   - component: {fileID: 1076678539}
   - component: {fileID: 1076678541}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (19)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6145,8 +6268,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6428,7 +6551,7 @@ GameObject:
   - component: {fileID: 1129672479}
   - component: {fileID: 1129672478}
   - component: {fileID: 1129672480}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (37)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6644,7 +6767,7 @@ GameObject:
   - component: {fileID: 1175873017}
   - component: {fileID: 1175873016}
   - component: {fileID: 1175873018}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (26)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6686,8 +6809,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -6793,7 +6916,7 @@ GameObject:
   - component: {fileID: 1201448255}
   - component: {fileID: 1201448254}
   - component: {fileID: 1201448256}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6835,8 +6958,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7107,7 +7230,7 @@ GameObject:
   - component: {fileID: 1307370858}
   - component: {fileID: 1307370857}
   - component: {fileID: 1307370859}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7149,8 +7272,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7214,7 +7337,7 @@ GameObject:
   - component: {fileID: 1315433816}
   - component: {fileID: 1315433815}
   - component: {fileID: 1315433817}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (23)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7256,8 +7379,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -7631,7 +7754,7 @@ GameObject:
   - component: {fileID: 1356511650}
   - component: {fileID: 1356511649}
   - component: {fileID: 1356511651}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7738,7 +7861,7 @@ GameObject:
   - component: {fileID: 1366169012}
   - component: {fileID: 1366169011}
   - component: {fileID: 1366169013}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7851,7 +7974,7 @@ GameObject:
   - component: {fileID: 1379466019}
   - component: {fileID: 1379466018}
   - component: {fileID: 1379466020}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7893,8 +8016,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8041,7 +8164,7 @@ GameObject:
   - component: {fileID: 1382593965}
   - component: {fileID: 1382593964}
   - component: {fileID: 1382593966}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8083,8 +8206,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8305,7 +8428,7 @@ GameObject:
   - component: {fileID: 1431954724}
   - component: {fileID: 1431954723}
   - component: {fileID: 1431954725}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (34)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8486,7 +8609,7 @@ GameObject:
   - component: {fileID: 1439172121}
   - component: {fileID: 1439172120}
   - component: {fileID: 1439172122}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (17)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8593,7 +8716,7 @@ GameObject:
   - component: {fileID: 1440657214}
   - component: {fileID: 1440657213}
   - component: {fileID: 1440657215}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8635,8 +8758,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -8911,7 +9034,7 @@ GameObject:
   - component: {fileID: 1487778572}
   - component: {fileID: 1487778571}
   - component: {fileID: 1487778573}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (14)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9185,7 +9308,7 @@ GameObject:
   - component: {fileID: 1543263354}
   - component: {fileID: 1543263353}
   - component: {fileID: 1543263355}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9227,8 +9350,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9298,7 +9421,7 @@ GameObject:
   - component: {fileID: 1564405701}
   - component: {fileID: 1564405700}
   - component: {fileID: 1564405702}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (39)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9415,7 +9538,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: ea188507430166b43a00ae0b334e4360, type: 2}
+      objectReference: {fileID: 0}
     - target: {fileID: 6609994558623199148, guid: 18f58d8fa368ebe4c8d734aeb1e310fc,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -9699,7 +9822,7 @@ GameObject:
   - component: {fileID: 1656171881}
   - component: {fileID: 1656171880}
   - component: {fileID: 1656171882}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9741,8 +9864,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9806,7 +9929,7 @@ GameObject:
   - component: {fileID: 1658452550}
   - component: {fileID: 1658452549}
   - component: {fileID: 1658452551}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9967,7 +10090,7 @@ PrefabInstance:
     - target: {fileID: 9075863210178770555, guid: c62cd0cbc733da349a55203d0c5abbc3,
         type: 3}
       propertyPath: m_Materials.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9075863210178770555, guid: c62cd0cbc733da349a55203d0c5abbc3,
         type: 3}
@@ -9978,7 +10101,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[1]
       value: 
-      objectReference: {fileID: 2100000, guid: 8e0cd3722c0f9434bb0056cfaabc7b32, type: 2}
+      objectReference: {fileID: 2100000, guid: ea188507430166b43a00ae0b334e4360, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10069,7 +10192,7 @@ GameObject:
   - component: {fileID: 1671094095}
   - component: {fileID: 1671094094}
   - component: {fileID: 1671094096}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (31)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10111,8 +10234,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10176,7 +10299,7 @@ GameObject:
   - component: {fileID: 1677282122}
   - component: {fileID: 1677282121}
   - component: {fileID: 1677282123}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (32)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10218,8 +10341,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10718,18 +10841,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1795341875}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1809943821 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 1459836576158005773, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1985208325}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 79099b6d895ba374a81073daced796e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1829785198
 GameObject:
   m_ObjectHideFlags: 0
@@ -10742,7 +10853,7 @@ GameObject:
   - component: {fileID: 1829785201}
   - component: {fileID: 1829785200}
   - component: {fileID: 1829785202}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10784,8 +10895,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10849,7 +10960,7 @@ GameObject:
   - component: {fileID: 1852399925}
   - component: {fileID: 1852399924}
   - component: {fileID: 1852399926}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10891,8 +11002,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10956,7 +11067,7 @@ GameObject:
   - component: {fileID: 1862043485}
   - component: {fileID: 1862043484}
   - component: {fileID: 1862043486}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (13)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10998,8 +11109,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11142,7 +11253,7 @@ GameObject:
   - component: {fileID: 1885169627}
   - component: {fileID: 1885169626}
   - component: {fileID: 1885169628}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11319,7 +11430,7 @@ GameObject:
   - component: {fileID: 1914403056}
   - component: {fileID: 1914403055}
   - component: {fileID: 1914403057}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur corner (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11361,8 +11472,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11561,84 +11672,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1008458fa7246ee45b029dc15c7d9a21, type: 3}
---- !u!1001 &1985208325
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1527435174213554822, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-        type: 3}
-      propertyPath: mouseSensitivity
-      value: 1000
-      objectReference: {fileID: 0}
-    - target: {fileID: 3119473126624631558, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.09
-      objectReference: {fileID: 0}
-    - target: {fileID: 3119473126624631558, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.94
-      objectReference: {fileID: 0}
-    - target: {fileID: 3119473126624631558, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -11.41
-      objectReference: {fileID: 0}
-    - target: {fileID: 3119473126624631558, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.64127594
-      objectReference: {fileID: 0}
-    - target: {fileID: 3119473126624631558, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3119473126624631558, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0.7673103
-      objectReference: {fileID: 0}
-    - target: {fileID: 3119473126624631558, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3119473126624631558, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3119473126624631558, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 100.226
-      objectReference: {fileID: 0}
-    - target: {fileID: 3119473126624631558, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3627006119377149927, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-        type: 3}
-      propertyPath: m_Name
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6378758336381526776, guid: 7c01dc5300edb0c49b637b8ac89822c6,
-        type: 3}
-      propertyPath: _speed
-      value: 8
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 7c01dc5300edb0c49b637b8ac89822c6, type: 3}
 --- !u!4 &1985798114 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6019580089654448134, guid: 5d92dd406f7e65049b295a30fd63b115,
@@ -11731,7 +11764,7 @@ GameObject:
   - component: {fileID: 2015615456}
   - component: {fileID: 2015615455}
   - component: {fileID: 2015615457}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (20)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11773,8 +11806,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11838,7 +11871,7 @@ GameObject:
   - component: {fileID: 2029982626}
   - component: {fileID: 2029982625}
   - component: {fileID: 2029982627}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11945,7 +11978,7 @@ GameObject:
   - component: {fileID: 2037407478}
   - component: {fileID: 2037407477}
   - component: {fileID: 2037407479}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (30)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11987,8 +12020,8 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
-  - {fileID: 2100000, guid: 994c1df5388a63c41ab200fede7501fc, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
+  - {fileID: 2100000, guid: a93f9d310d13d734dbc60d9935dc322f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12040,6 +12073,18 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -3191526996811961001, guid: 710e224ce11b4584591ff37bc5566b3b, type: 3}
+--- !u!114 &2045865987 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5504782254082673483, guid: 28dfdf56114ebbd439935270b854f3e8,
+    type: 3}
+  m_PrefabInstance: {fileID: 519022838}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79099b6d895ba374a81073daced796e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2090580260 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4735309476022098823, guid: d4da1578a1d0803469ac29aa543d6c16,
@@ -12064,7 +12109,7 @@ GameObject:
   - component: {fileID: 2142565683}
   - component: {fileID: 2142565682}
   - component: {fileID: 2142565684}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Mur (33)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12167,8 +12212,8 @@ SceneRoots:
   - {fileID: 949009406}
   - {fileID: 1905717302}
   - {fileID: 1460476232}
-  - {fileID: 1985208325}
   - {fileID: 294583841}
+  - {fileID: 519022838}
   - {fileID: 454466257}
   - {fileID: 1136413714}
   - {fileID: 1162150324}

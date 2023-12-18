@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4622523715716993100}
   - component: {fileID: 7787802309592929656}
   - component: {fileID: -911801438492182605}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Soeajer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
