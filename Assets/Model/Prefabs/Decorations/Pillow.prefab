@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6275713811236169166}
   - component: {fileID: -6323737538256368763}
   - component: {fileID: -6884742991853328797}
+  - component: {fileID: -2407273607559463458}
   m_Layer: 0
   m_Name: Pillow
   m_TagString: Untagged
@@ -134,3 +135,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &-2407273607559463458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7612910656269749402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4394969ce128c240a218c4cc8ee67da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 971045629423161764}
   - component: {fileID: 3783422401584842407}
   - component: {fileID: -215447829916326596}
+  - component: {fileID: -7868496305614874549}
   m_Layer: 0
   m_Name: LR_1_Pillow_2
   m_TagString: Untagged
@@ -134,3 +135,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &-7868496305614874549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2513528490776234399}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4394969ce128c240a218c4cc8ee67da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

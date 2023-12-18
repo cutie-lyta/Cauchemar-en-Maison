@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7787802309592929656}
   - component: {fileID: -911801438492182605}
   - component: {fileID: -546750660514555808}
+  - component: {fileID: 6807811531727080891}
   m_Layer: 0
   m_Name: Soeajer
   m_TagString: Untagged
@@ -134,3 +135,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &6807811531727080891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479771074674480794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4394969ce128c240a218c4cc8ee67da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

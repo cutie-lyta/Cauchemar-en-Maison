@@ -37,7 +37,9 @@ public class CameraMovementBehaviour : MonoBehaviour
 
             Vector3 interpolatedPosition = Vector3.Lerp(this.transform.position, playerBody.position, interpolationRatio);
 
-            this.transform.position = interpolatedPosition;
+            interpolatedPosition.y = transform.position.y;
+
+            transform.position = interpolatedPosition;
 
             elapsedFrames = (elapsedFrames + 1) % (interpolationFramesCount + 1);
 

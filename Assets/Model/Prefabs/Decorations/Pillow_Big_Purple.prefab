@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8616273144571134034}
   - component: {fileID: -6791671255767403907}
   - component: {fileID: 4620156736782072041}
+  - component: {fileID: -912123384750025468}
   m_Layer: 0
   m_Name: Pillow_Big_Purple
   m_TagString: Untagged
@@ -134,3 +135,15 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &-912123384750025468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6153122424501234424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4394969ce128c240a218c4cc8ee67da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

@@ -5,22 +5,24 @@ using UnityEngine;
 public class ObjectPositionner : MonoBehaviour
 {
     [SerializeField] private RaycastBehaviour _raycast;
-    [SerializeField] private List<Objet> _objets;
     [SerializeField] private GameObject _poofPrefabs;
     [SerializeField] private GameObject _pffPrefabs;
-    
+    public List<Objet> Objets;
     private void ReplaceObject(GameObject gameObject)
     {
-        foreach (Objet objet in _objets)
+        foreach (Objet objet in Objets)
         {
             if(objet.pointer == gameObject)
             {
+                if(gameObject.GetComponent<Rigidbody>()) gameObject.GetComponent<Rigidbody>().isKinematic = true;
+
                 GameObject pff = Instantiate(_pffPrefabs);
                 pff.transform.position = gameObject.transform.position;
                 
                 gameObject.transform.position = objet.transform.position;
                 GameObject poof = Instantiate(_poofPrefabs);
                 poof.transform.position = objet.transform.position;
+
                 break;
             }
         }
