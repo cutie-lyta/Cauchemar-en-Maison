@@ -1,6 +1,10 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Animation.meta
 guid: 994d3e9db256b074984c8d0ef5676d22
 folderAsset: yes
+========
+guid: 50af400683aae714980e3f710ff2997f
+>>>>>>>> origin/RandomGeneration:Assets/Scenes/LytaProtoScene.unity.meta
 DefaultImporter:
   externalObjects: {}
   userData: 
