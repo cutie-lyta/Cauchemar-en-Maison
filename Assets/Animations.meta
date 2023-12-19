@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 <<<<<<<< HEAD:Assets/Shaders.meta
-guid: ff72557a3460c4049b2758b8423aa697
+guid: 07b0f7b58b66ddd43b75c3e8654fc568
 ========
 guid: be7fbd4f7eefe3f4499654bc2b65fe6d
 >>>>>>>> 6de4f57 (Ajout de la nouvelle horloge + retrait de la pause + ajout d'un écran de fade in / fade out (pas implémenté)):Assets/Animations.meta

@@ -17,15 +17,18 @@ public class RandomPlacementGenerator : MonoBehaviour
     void Awake()
     {
         _numberOfDisplaced = Mathf.Clamp(_numberOfDisplaced, 0, _stuffInScene.Count);
+
         // Get a List of all gameobject that will be displaced
         for (int i = 0; i < _numberOfDisplaced; i++)
         {
+
             var index = Random.Range(0, _stuffInScene.Count);
             var gameObject = _stuffInScene[index];
             _stuffInScene.RemoveAt(index);
 
-            gameObject.tag = "Displaced";       
-            
+            gameObject.tag = "Displaced";
+            gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.None;
+
             var position = gameObject.transform.position;
             var rotation = gameObject.transform.rotation;
             var scale = gameObject.transform.localScale;
@@ -90,7 +93,6 @@ public class RandomPlacementGenerator : MonoBehaviour
                                                         );
 
             gObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
-
         }
 
         else if (collision.gameObject.CompareTag("Sol"))            //Ne fais rien en cas de contact avec le sol
