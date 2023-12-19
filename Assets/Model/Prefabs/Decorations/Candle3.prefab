@@ -35,9 +35,8 @@ Transform:
 --- !u!1 &6685110742642980676
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8743156925289329386, guid: d8cd5e1ab794ae948a846291cb81dc91,
-    type: 3}
-  m_PrefabInstance: {fileID: 3263453863942649856}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
@@ -45,6 +44,7 @@ GameObject:
   - component: {fileID: 785867773873548124}
   - component: {fileID: 5074989165366288193}
   - component: {fileID: 6736047690742779223}
+  - component: {fileID: 2821496475945554638}
   m_Layer: 3
   m_Name: Candle3
   m_TagString: Untagged
@@ -55,9 +55,8 @@ GameObject:
 --- !u!4 &426626758969215743
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7151412795279477284, guid: d8cd5e1ab794ae948a846291cb81dc91,
-    type: 3}
-  m_PrefabInstance: {fileID: 3263453863942649856}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6685110742642980676}
   serializedVersion: 2
@@ -71,18 +70,16 @@ Transform:
 --- !u!33 &785867773873548124
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9125967430973887642, guid: d8cd5e1ab794ae948a846291cb81dc91,
-    type: 3}
-  m_PrefabInstance: {fileID: 3263453863942649856}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6685110742642980676}
   m_Mesh: {fileID: 724631217499394822, guid: afc9873a656807842ae34bc92cc46b88, type: 3}
 --- !u!23 &5074989165366288193
 MeshRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9093149478274334349, guid: d8cd5e1ab794ae948a846291cb81dc91,
-    type: 3}
-  m_PrefabInstance: {fileID: 3263453863942649856}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6685110742642980676}
   m_Enabled: 1
@@ -123,9 +120,8 @@ MeshRenderer:
 --- !u!64 &6736047690742779223
 MeshCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: -56232642506680297, guid: d8cd5e1ab794ae948a846291cb81dc91,
-    type: 3}
-  m_PrefabInstance: {fileID: 3263453863942649856}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6685110742642980676}
   m_Material: {fileID: 0}
@@ -143,60 +139,30 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 724631217499394822, guid: afc9873a656807842ae34bc92cc46b88, type: 3}
---- !u!1001 &3263453863942649856
-PrefabInstance:
+--- !u!54 &2821496475945554638
+Rigidbody:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1468541404865949683}
-    m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.x
-      value: -1.2688729
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.y
-      value: 0.9221015
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.z
-      value: -1.7009729
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071067
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Name
-      value: Candle3
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6685110742642980676}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
