@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 208391321749499421}
   - component: {fileID: 4589781532348110815}
   - component: {fileID: -979796835603656989}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Shelves_One_Line
   m_TagString: Untagged
   m_Icon: {fileID: 0}
