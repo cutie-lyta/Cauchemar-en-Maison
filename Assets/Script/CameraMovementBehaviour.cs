@@ -25,19 +25,8 @@ public class CameraMovementBehaviour : MonoBehaviour
     {
         if (CameraActive)
         {
-            // on prend les axes pré-enregistrés
-            //float mouseX = Input.GetAxis("Mouse X") * _mouseSensitivity * 0.01f /* Time.deltaTime */;
-            //float mouseY = Input.GetAxis("Mouse Y") * _mouseSensitivity * 0.01f /* Time.deltaTime */;
-            /*
-
-            xRotation -= mouseY; // on prend la rotation après le mouvement (négatif si vers le haut et positif si vers le bas)
-            xRotation = Mathf.Clamp(xRotation, -90f, 90f); // on limite la rotation (on ne peut pas faire un tour complet en pitch)
-
-            transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f); // on modifie la rotation dans le transform avec les quaternions
-
-            _playerBody.Rotate(Vector3.up * mouseX); // on bouge également le joueur (qui sera relié à la caméra)
-            */
-
+            _playerBody.transform.rotation = Quaternion.Euler(0, transform.rotation.eulerAngles.y, 0); // on bouge également le joueur (qui sera relié à la caméra)
+            
             // float interpolationRatio = (float)elapsedFrames / interpolationFramesCount;
 
             //Vector3 interpolatedPosition = Vector3.Slerp(this.transform.position, _playerBody.position, interpolationRatio);
