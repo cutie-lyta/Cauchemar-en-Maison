@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6153122424501234424
+--- !u!1 &1807786220403194806
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,10 +8,43 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 716953494432040937}
-  - component: {fileID: 7154611138217102167}
-  - component: {fileID: 8616273144571134034}
-  - component: {fileID: -6791671255767403907}
+  - component: {fileID: 2418104903877865832}
+  m_Layer: 0
+  m_Name: Pillow_Big_Purple
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2418104903877865832
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1807786220403194806}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5794124257499703364}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2026934148888654375
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 6153122424501234424, guid: 1008458fa7246ee45b029dc15c7d9a21,
+    type: 3}
+  m_PrefabInstance: {fileID: 6859589155686496189}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5794124257499703364}
+  - component: {fileID: 6657801704605584897}
+  - component: {fileID: 2491994230207211474}
+  - component: {fileID: 8059976360465212343}
   m_Layer: 3
   m_Name: Pillow_Big_Purple
   m_TagString: Untagged
@@ -19,36 +52,39 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &716953494432040937
+--- !u!4 &5794124257499703364
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 716953494432040937, guid: 1008458fa7246ee45b029dc15c7d9a21,
+    type: 3}
+  m_PrefabInstance: {fileID: 6859589155686496189}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6153122424501234424}
+  m_GameObject: {fileID: 2026934148888654375}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
-  m_LocalPosition: {x: 3.1868808, y: 0.43480074, z: 2.2029705}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071067}
+  m_LocalPosition: {x: -4.87, y: 0.83, z: 1.13}
   m_LocalScale: {x: 200, y: 200, z: 200}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2418104903877865832}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &7154611138217102167
+--- !u!33 &6657801704605584897
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 7154611138217102167, guid: 1008458fa7246ee45b029dc15c7d9a21,
+    type: 3}
+  m_PrefabInstance: {fileID: 6859589155686496189}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6153122424501234424}
+  m_GameObject: {fileID: 2026934148888654375}
   m_Mesh: {fileID: 4393961933747715193, guid: bea99a906ebdc774fa7c8cda143af288, type: 3}
---- !u!23 &8616273144571134034
+--- !u!23 &2491994230207211474
 MeshRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8616273144571134034, guid: 1008458fa7246ee45b029dc15c7d9a21,
+    type: 3}
+  m_PrefabInstance: {fileID: 6859589155686496189}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6153122424501234424}
+  m_GameObject: {fileID: 2026934148888654375}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -84,13 +120,14 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &-6791671255767403907
+--- !u!64 &8059976360465212343
 MeshCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: -6791671255767403907, guid: 1008458fa7246ee45b029dc15c7d9a21,
+    type: 3}
+  m_PrefabInstance: {fileID: 6859589155686496189}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6153122424501234424}
+  m_GameObject: {fileID: 2026934148888654375}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -106,3 +143,60 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4393961933747715193, guid: bea99a906ebdc774fa7c8cda143af288, type: 3}
+--- !u!1001 &6859589155686496189
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2418104903877865832}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.x
+      value: -4.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.y
+      value: 0.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalPosition.z
+      value: 1.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Name
+      value: Pillow_Big_Purple
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 0}
