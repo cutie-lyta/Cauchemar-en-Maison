@@ -131,6 +131,7 @@ Material:
     - _BumpScale: 0.3
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
+    - _Contrast: 1
     - _Cull: 2
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
@@ -186,7 +187,7 @@ Material:
     - _RimLightAlign: 0.636
     - _RimLightSmoothness: 0.517
     - _RimPower: 1
-    - _Saturation: 0.371
+    - _Saturation: 0.302
     - _ShadowStrength: 0.52
     - _Shininess: 0
     - _SizeFalloff: 0
@@ -213,10 +214,11 @@ Material:
     - _ZWrite: 1
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
     - _EmissionColor: {r: 0.03773582, g: 0.03773582, b: 0.03773582, a: 1}
     - _FaceFrontDirection: {r: 0, g: 0, b: 1, a: 0}
     - _FaceRightDirection: {r: 1, g: 0, b: 0, a: 0}
+    - _HS: {r: 0, g: 1, b: 0, a: 0}
     - _HairSpecColor: {r: 0, g: 0, b: 0, a: 1}
     - _HalfToneColor: {r: 0, g: 0, b: 0, a: 1}
     - _HatchingColor: {r: 0, g: 0, b: 0, a: 1}
