@@ -28,11 +28,8 @@ public class RaycastBehaviour : MonoBehaviour
                 
                 Debug.Log($"Did hit {hit.collider.gameObject.tag}");
                 Debug.Log($"Tag = {hit.collider.gameObject.tag}, : {hit.collider.gameObject.tag == "Displaced"}");
-                if(hit.collider.gameObject.tag == "Displaced")
-                {
-                    print("invoking");
-                    OnHit?.Invoke(hit.collider.gameObject);
-                }
+                print("invoking");
+                OnHit?.Invoke(hit.collider.gameObject);
             }
 
             if (_currentlyCollider != hit.collider.gameObject)
