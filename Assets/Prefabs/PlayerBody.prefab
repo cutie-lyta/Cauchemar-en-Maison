@@ -67,6 +67,7 @@ Transform:
   - {fileID: 2496449292505692656}
   - {fileID: 921266242624256044}
   - {fileID: 3159114073897684977}
+  - {fileID: 1214435332532227137}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &8993866258184373411
@@ -83,6 +84,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 8
   _rb: {fileID: 3067121045545811278}
+  rotationVector: {fileID: 1214435332532227137}
 --- !u!82 &524559633599634384
 AudioSource:
   m_ObjectHideFlags: 0
@@ -708,3 +710,34 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _objDistance: 12
+--- !u!1 &8866034276115066205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1214435332532227137}
+  m_Layer: 0
+  m_Name: RotationVector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1214435332532227137
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8866034276115066205}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1407390266759919837}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
