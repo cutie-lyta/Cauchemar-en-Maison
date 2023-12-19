@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5660763708967854979}
   - component: {fileID: 9073733256039204479}
   - component: {fileID: -6973596849921766260}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer_Lines
   m_TagString: Untagged
   m_Icon: {fileID: 0}

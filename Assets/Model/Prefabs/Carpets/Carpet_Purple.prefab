@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1804146158809214735}
   - component: {fileID: 1540315762691667485}
   - component: {fileID: -7068917894793194656}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Carpet_Purple
   m_TagString: Untagged
   m_Icon: {fileID: 0}

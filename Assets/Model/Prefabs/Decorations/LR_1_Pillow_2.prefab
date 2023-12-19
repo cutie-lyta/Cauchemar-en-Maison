@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1306044321969714638}
   - component: {fileID: 971045629423161764}
   - component: {fileID: 3783422401584842407}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LR_1_Pillow_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}

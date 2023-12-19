@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1766787645165887728}
   - component: {fileID: 7546149323316145505}
   - component: {fileID: 140908076935457264}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: LR_1_SpeakerTV_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5f91156e95978fa45b1ba8c5cf78a131, type: 2}
+  - {fileID: 2100000, guid: e0030754c4b7a784d9163a3efe5b1e29, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
