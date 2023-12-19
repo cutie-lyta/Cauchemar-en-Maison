@@ -5,37 +5,29 @@ using UnityEngine;
 public class ObjectPositionner : MonoBehaviour
 {
     [SerializeField] private RaycastBehaviour _raycast;
-    [SerializeField] private List<Objet> _objets;
     [SerializeField] private GameObject _poofPrefabs;
     [SerializeField] private GameObject _pffPrefabs;
-
-    [SerializeField] private SceneLoader _loader;
-
+    public List<Objet> Objets;
     private void ReplaceObject(GameObject gameObject)
     {
-        Objet searchedObjet = new Objet();
-
-        foreach (Objet objet in _objets)
+        foreach (Objet objet in Objets)
         {
             if(objet.pointer == gameObject)
             {
+                if(gameObject.GetComponent<Rigidbody>()) gameObject.GetComponent<Rigidbody>().isKinematic = true;
 
                 GameObject pff = Instantiate(_pffPrefabs);
                 pff.transform.position = gameObject.transform.position;
-
+                
                 gameObject.transform.position = objet.transform.position;
+                gameObject.transform.rotation = objet.transform.rotation;
 
                 GameObject poof = Instantiate(_poofPrefabs);
                 poof.transform.position = objet.transform.position;
 
-                searchedObjet = objet;
                 break;
             }
         }
-
-        _objets.Remove(searchedObjet);
-
-        CheckFinish();
     }
     // Start is called before the first frame update
     void Start()
@@ -47,14 +39,5 @@ public class ObjectPositionner : MonoBehaviour
     void Update()
     {
         
-    }
-
-    private void CheckFinish()
-    {
-        Debug.Log("Check");
-        if (_objets.Count < 1)
-        {
-            _loader.LoadTheScene("TheEnd");
-        }
     }
 }
