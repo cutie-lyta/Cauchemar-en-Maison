@@ -28,7 +28,7 @@ public class MovementBehaviour : MonoBehaviour
     {
         var dir = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical")); // on prend la direction
         dir = Vector3.ClampMagnitude(dir, 1);
-        _rb.velocity = transform.TransformDirection(dir * _speed) ; // on change la v�locit� du rigid body pour faire d�placer le joueur en prenant en compte les collisions
+        _rb.velocity = GetComponentInChildren<Camera>().transform.TransformDirection(dir * _speed) ; // on change la v�locit� du rigid body pour faire d�placer le joueur en prenant en compte les collisions
 
         var source = this.GetComponent<AudioSource>();
 
