@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Animations/FadeScreen.meta
 guid: c9bd24240467b6546ba3d2da116c7c5b
+========
+guid: be7fbd4f7eefe3f4499654bc2b65fe6d
+>>>>>>>> 6de4f57c2923acebd63e5fb293c539b465032d4c:Assets/Animations.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
