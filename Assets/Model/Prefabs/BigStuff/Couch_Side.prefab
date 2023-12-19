@@ -35,9 +35,8 @@ Transform:
 --- !u!1 &6778135168121224459
 GameObject:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6474225586969343716, guid: c62cd0cbc733da349a55203d0c5abbc3,
-    type: 3}
-  m_PrefabInstance: {fileID: 756528474332144379}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
@@ -45,6 +44,7 @@ GameObject:
   - component: {fileID: 467335481210970117}
   - component: {fileID: 5717950828190630653}
   - component: {fileID: 5842714733468510263}
+  - component: {fileID: 1399322551727953565}
   m_Layer: 3
   m_Name: Couch_Side
   m_TagString: Untagged
@@ -55,9 +55,8 @@ GameObject:
 --- !u!4 &456451372548921871
 Transform:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5188574711878757150, guid: c62cd0cbc733da349a55203d0c5abbc3,
-    type: 3}
-  m_PrefabInstance: {fileID: 756528474332144379}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6778135168121224459}
   serializedVersion: 2
@@ -71,18 +70,16 @@ Transform:
 --- !u!33 &467335481210970117
 MeshFilter:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4745957428042916779, guid: c62cd0cbc733da349a55203d0c5abbc3,
-    type: 3}
-  m_PrefabInstance: {fileID: 756528474332144379}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6778135168121224459}
   m_Mesh: {fileID: 5785409545790130006, guid: bea99a906ebdc774fa7c8cda143af288, type: 3}
 --- !u!23 &5717950828190630653
 MeshRenderer:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9075863210178770555, guid: c62cd0cbc733da349a55203d0c5abbc3,
-    type: 3}
-  m_PrefabInstance: {fileID: 756528474332144379}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6778135168121224459}
   m_Enabled: 1
@@ -125,9 +122,8 @@ MeshRenderer:
 --- !u!64 &5842714733468510263
 MeshCollider:
   m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2367760910974884063, guid: c62cd0cbc733da349a55203d0c5abbc3,
-    type: 3}
-  m_PrefabInstance: {fileID: 756528474332144379}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6778135168121224459}
   m_Material: {fileID: 0}
@@ -145,60 +141,30 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 5785409545790130006, guid: bea99a906ebdc774fa7c8cda143af288, type: 3}
---- !u!1001 &756528474332144379
-PrefabInstance:
+--- !u!54 &1399322551727953565
+Rigidbody:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 927637268530919272}
-    m_Modifications:
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.x
-      value: 2.9192572
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalPosition.z
-      value: 2.1658397
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071067
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: m_Name
-      value: Couch_Side
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6778135168121224459}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
