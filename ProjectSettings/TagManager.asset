@@ -5,11 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Displaced
+  - Outside
+  - Sol
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Outlined
   - Water
   - UI
   - 

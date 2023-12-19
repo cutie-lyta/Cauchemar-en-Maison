@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4344654694534796127}
   - component: {fileID: 8109004961788848755}
   - component: {fileID: -8729432503642765743}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Drawer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -63,6 +63,8 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: fbd715c4bea5af84eab905fde6f22769, type: 2}
+  - {fileID: 2100000, guid: fbd715c4bea5af84eab905fde6f22769, type: 2}
+  - {fileID: 2100000, guid: fe8d201a5fbfd07498f33f777b115417, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
