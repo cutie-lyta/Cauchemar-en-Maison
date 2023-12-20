@@ -22,7 +22,7 @@ public class EndScript : MonoBehaviour
         scoreText.text = $"Score : {ObjectPositionner.Percentage}%";
         
         TimeSpan ts = TimeSpan.FromMilliseconds(ObjectPositionner.Milliseconds);
-        timeText.text = $"Time : {ts.ToString(@"mm\:ss\.ffff")}%";
+        timeText.text = $"Time : {ts.ToString(@"mm\:ss\.ffff")}";
     }
 
     public void OnPushToServer()
