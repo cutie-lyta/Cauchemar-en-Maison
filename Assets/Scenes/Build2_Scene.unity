@@ -765,6 +765,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Couch_Side
       objectReference: {fileID: 0}
+    - target: {fileID: 9075863210178770555, guid: c62cd0cbc733da349a55203d0c5abbc3,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6216,7 +6221,8 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5398814858862512815, guid: 77aeb14558987b142999d4319df31989, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5551705440603071509, guid: 77aeb14558987b142999d4319df31989,
@@ -17007,6 +17013,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1003717286}
     m_Modifications:
+    - target: {fileID: -979796835603656989, guid: 91ecd692ad6c8f14183647d48d2694ae,
+        type: 3}
+      propertyPath: m_Convex
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2536355368756536890, guid: 91ecd692ad6c8f14183647d48d2694ae,
         type: 3}
       propertyPath: m_Name
@@ -25557,6 +25568,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5173304600344499903, guid: a764a6b628cf131439a602ee69c79478,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25785,6 +25801,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1003717286}
     m_Modifications:
+    - target: {fileID: 8109004961788848755, guid: 9ba66b80eaf8e134cac62ba7086a882e,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8763526521500403187, guid: 9ba66b80eaf8e134cac62ba7086a882e,
         type: 3}
       propertyPath: m_LocalScale.z
@@ -26573,6 +26594,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Couch_Side (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9075863210178770555, guid: c62cd0cbc733da349a55203d0c5abbc3,
+        type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27002,7 +27028,8 @@ PrefabInstance:
       value: 89.744
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 5398814858862512815, guid: 77aeb14558987b142999d4319df31989, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5551705440603071509, guid: 77aeb14558987b142999d4319df31989,

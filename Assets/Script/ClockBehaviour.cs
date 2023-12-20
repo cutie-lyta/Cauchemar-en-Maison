@@ -9,6 +9,7 @@ public class ClockBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        ObjectPositionner.Milliseconds = 0;
         StartCoroutine(_timerExecute());
     }
 
@@ -18,9 +19,9 @@ public class ClockBehaviour : MonoBehaviour
         _pointer.rotation = Quaternion.Euler(0, 0, _pointer.rotation.eulerAngles.z - 1);
         ObjectPositionner.Milliseconds += (ulong)((_minutes * 60 / 360) * 1000);
         
-        if (ObjectPositionner.Milliseconds >= (_minutes*60*1000))
+        if (ObjectPositionner.Milliseconds >= (ulong)(_minutes*60*1000))
         {
-            BroadcastMessage("TimerFinished");
+            FindObjectOfType<ObjectPositionner>().TimerFinished();
             yield return null;
         }
 

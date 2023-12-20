@@ -43,8 +43,8 @@ public class ScaleUpDown : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
 
-        IsFinished = true;
         transform.localScale = new Vector3(_scaleDefault, _scaleDefault, _scaleDefault);
+        IsFinished = true;
         yield return null;
     }
 }
