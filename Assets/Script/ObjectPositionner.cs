@@ -10,6 +10,10 @@ public class ObjectPositionner : MonoBehaviour
     [SerializeField] private RaycastBehaviour _raycast;
     [SerializeField] private GameObject _poofPrefabs;
     [SerializeField] private GameObject _pffPrefabs;
+    
+    public Sprite CursorActive; 
+    public Sprite CursorInactive;
+    
     public List<Objet> Objets;
 
     public static float Percentage = 0;

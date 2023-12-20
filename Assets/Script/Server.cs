@@ -69,6 +69,8 @@ public static class Server
                     break;
                 case UnityWebRequest.Result.Success:
                     var output = webRequest.downloadHandler.text.Split("|");
+                    
+                    Debug.Log($"{output[0]}");
                     score.percentage = float.Parse(output[0]);
                     score.ms = UInt64.Parse(output[1]);
                     break;
