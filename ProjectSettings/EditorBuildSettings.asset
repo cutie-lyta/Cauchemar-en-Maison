@@ -6,12 +6,12 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Folder/Menu.unity
+    path: Assets/Scenes/Game/Menu.unity
     guid: 81575a8f333a637428a16637016f1bb8
   - enabled: 1
-    path: Assets/Scenes/YoannProtoScene.unity
-    guid: b00da5b4a501dc644abfd360d8b51601
+    path: Assets/Scenes/Build2_Scene.unity
+    guid: 59a20668cc0754d4d9808f7afde5e367
   - enabled: 1
-    path: Assets/Scenes/Folder/TheEnd.unity
+    path: Assets/Scenes/Game/TheEnd.unity
     guid: e4c575bdd891fb94887868139b2d5c5a
   m_configObjects: {}

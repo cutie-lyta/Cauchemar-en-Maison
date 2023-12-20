@@ -12,6 +12,11 @@ public class MovementBehaviour : MonoBehaviour
 
     void OnCollisionEnter(Collision col) {
         _isCurrentlyColliding = true;
+
+        if (col.gameObject.CompareTag("Finish"))
+        {
+            FindObjectOfType<ObjectPositionner>().TimerFinished();
+        }
     }
  
     void OnCollisionExit(Collision col) {

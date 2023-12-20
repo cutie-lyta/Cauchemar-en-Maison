@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ObjectPositionner : MonoBehaviour
 {
@@ -9,6 +11,10 @@ public class ObjectPositionner : MonoBehaviour
     [SerializeField] private GameObject _poofPrefabs;
     [SerializeField] private GameObject _pffPrefabs;
     public List<Objet> Objets;
+
+    public static float Percentage = 0;
+    public static UInt64 Milliseconds = 0;
+    
     private IEnumerator ReplaceObjectCoRoutine(GameObject gameObject)
     {
         if(gameObject.CompareTag("Displaced")){
@@ -16,6 +22,7 @@ public class ObjectPositionner : MonoBehaviour
             {
                 if(objet.pointer == gameObject)
                 {
+                    gameObject.tag = "Untagged";
                     if(gameObject.GetComponent<Rigidbody>()) gameObject.GetComponent<Rigidbody>().isKinematic = true;
 
                     GameObject pff = Instantiate(_pffPrefabs);
@@ -42,6 +49,12 @@ public class ObjectPositionner : MonoBehaviour
                     GameObject poof = Instantiate(_poofPrefabs);
                     poof.transform.position = objet.transform.position;
 
+                    if (CheckWin())
+                    {
+                        CalculatePoints();
+                        SceneManager.LoadScene("TheEnd");
+                    }
+                    
                     yield return null;
                 }
             }
@@ -91,9 +104,39 @@ public class ObjectPositionner : MonoBehaviour
         _raycast.OnHit += ReplaceObject;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void TimerFinished()
     {
-        
+        CalculatePoints();
+        SceneManager.LoadScene("TheEnd");
+    }
+    
+    bool CheckWin()
+    {
+        foreach (Objet objet in Objets)
+        {
+            if (objet.pointer.CompareTag("Displaced"))
+            {
+                return false;
+            }
+        }
+
+        return true;
+    }
+
+    void CalculatePoints()
+    {
+        int count = Objets.Count;
+        foreach (Objet objet in Objets)
+        {
+            if (!objet.pointer.CompareTag("Displaced"))
+            {
+                Percentage += (float)100/count;
+                print($"Object : {objet.pointer.name} is well placed -> Percentage = {Percentage}");
+            }
+            else
+            {
+                print($"Object : {objet.pointer.name} is not placed -> Percentage = {Percentage}");
+            }
+        }
     }
 }

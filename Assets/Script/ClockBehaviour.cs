@@ -16,7 +16,9 @@ public class ClockBehaviour : MonoBehaviour
     {
         
         _pointer.rotation = Quaternion.Euler(0, 0, _pointer.rotation.eulerAngles.z - 1);
-        if (_pointer.rotation.eulerAngles.z <= 0.05f)
+        ObjectPositionner.Milliseconds += (ulong)((_minutes * 60 / 360) * 1000);
+        
+        if (ObjectPositionner.Milliseconds >= (_minutes*60*1000))
         {
             BroadcastMessage("TimerFinished");
             yield return null;

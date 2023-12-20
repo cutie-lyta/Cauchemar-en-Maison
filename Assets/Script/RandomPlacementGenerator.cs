@@ -54,7 +54,7 @@ public class RandomPlacementGenerator : MonoBehaviour
 
         foreach (var stuff in _stuffInScene)
         {
-            if(stuff.GetComponent<Rigidbody>()) stuff.GetComponent<Rigidbody>().isKinematic = true;
+            stuff.GetComponent<Rigidbody>().isKinematic = true;
         }
     }
 
