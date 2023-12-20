@@ -25,7 +25,6 @@ public class RaycastBehaviour : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, _objDistance))
         {
             bool pressed = Input.GetKeyDown("joystick button 0");
-            pressed = pressed || Input.GetKeyDown("joystick button 6");
             /*int i = 1;
             while (i < 16 && !pressed)
             {
