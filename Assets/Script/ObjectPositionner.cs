@@ -28,7 +28,7 @@ public class ObjectPositionner : MonoBehaviour
                     GameObject pff = Instantiate(_pffPrefabs);
                     pff.transform.position = gameObject.transform.position;
                     var anim = gameObject.AddComponent<ScaleUpDown>();
-                    anim.ScaleMax = 75;
+                    anim.ScaleMax = 25;
                     anim.EaseInTime = 8;
                     anim.EaseOutTime = 15;
                     anim.Play();
