@@ -45,6 +45,7 @@ public class ObjectPositionner : MonoBehaviour
                     
                     gameObject.transform.position = objet.transform.position;
                     gameObject.transform.rotation = objet.transform.rotation;
+                    gameObject.transform.localScale = objet.transform.localScale;
 
                     GameObject poof = Instantiate(_poofPrefabs);
                     poof.transform.position = objet.transform.position;
