@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 1077090768153173113}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.98712534, z: -0, w: -0.15994893}
-  m_LocalPosition: {x: 0, y: 0.657, z: 0}
+  m_LocalPosition: {x: 0.389, y: 0.657, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 524559633599634384}
   - component: {fileID: 6418697552493615735}
   - component: {fileID: 3067121045545811278}
+  - component: {fileID: 8117409542607501915}
   m_Layer: 0
   m_Name: PlayerBody
   m_TagString: Untagged
@@ -97,7 +98,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ec4d1722fc2e9954dbafe4c1c17c923a, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.175
+  m_Volume: 0.925
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -231,6 +232,15 @@ Rigidbody:
   m_Interpolate: 1
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!170 &8117409542607501915
+AudioDistortionFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2535024824653597101}
+  m_Enabled: 1
+  m_DistortionLevel: 0.47
 --- !u!1 &2999988657745431682
 GameObject:
   m_ObjectHideFlags: 0
@@ -462,7 +472,7 @@ Transform:
   m_GameObject: {fileID: 6566613133294938195}
   serializedVersion: 2
   m_LocalRotation: {x: 0.06936556, y: -0.7307532, z: -0.096646026, w: 0.67219627}
-  m_LocalPosition: {x: 0, y: 0.657, z: 0}
+  m_LocalPosition: {x: 0.389, y: 0.657, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -539,7 +549,7 @@ Transform:
   m_GameObject: {fileID: 8497774504679398027}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.657, z: 0}
+  m_LocalPosition: {x: 0.389, y: 0.657, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

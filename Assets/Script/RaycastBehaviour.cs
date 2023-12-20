@@ -24,7 +24,16 @@ public class RaycastBehaviour : MonoBehaviour
 
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, _objDistance))
         {
-            if (Input.GetMouseButtonDown(0)) { // on prend l'input de la commande du joueur (si le joueur fait un click gauche souris)
+            bool pressed = Input.GetKeyDown("joystick button 0");
+            pressed = pressed || Input.GetKeyDown("joystick button 6");
+            /*int i = 1;
+            while (i < 16 && !pressed)
+            {
+                pressed = pressed || Input.GetKeyDown($"joystick {i + 1} button 0");
+                i++;
+            }*/
+            
+            if (Input.GetMouseButtonDown(0) || pressed) { // on prend l'input de la commande du joueur (si le joueur fait un click gauche souris)
                 
                 Debug.Log($"Did hit {hit.collider.gameObject.tag}");
                 Debug.Log($"Tag = {hit.collider.gameObject.tag}, : {hit.collider.gameObject.tag == "Displaced"}");
