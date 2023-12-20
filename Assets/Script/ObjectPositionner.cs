@@ -101,6 +101,7 @@ public class ObjectPositionner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Percentage = 0;
         _raycast.OnHit += ReplaceObject;
     }
 
