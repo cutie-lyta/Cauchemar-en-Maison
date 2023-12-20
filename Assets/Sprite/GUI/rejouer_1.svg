@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_2" data-name="Calque 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 127.3 29.26">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #9c8052;
+        stroke: #183253;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        font-family: AccidentalPresidency, 'Accidental Presidency';
+        font-size: 21px;
+        stroke-width: .75px;
+      }
+    </style>
+  </defs>
+  <g id="Calque_6" data-name="Calque 6">
+    <rect class="cls-1" x=".5" y=".5" width="126.3" height="28.26"/>
+    <text class="cls-2" transform="translate(35.95 20.96)"><tspan x="0" y="0">REJOUER</tspan></text>
+  </g>
+</svg>
