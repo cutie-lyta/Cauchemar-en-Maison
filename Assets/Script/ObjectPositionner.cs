@@ -41,7 +41,7 @@ public class ObjectPositionner : MonoBehaviour
 
                     var audio = gameObject.AddComponent<AudioSource>();
                     audio.clip = _successClip;
-                    audio.Play();
+                    //audio.Play();
                     
                     print("ntm");
 
