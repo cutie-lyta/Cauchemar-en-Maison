@@ -78,7 +78,7 @@ public class RandomPlacementGenerator : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Outside"))             //Reroll la position si l'objet est dehors
         {
-            Debug.Log(gObject.name + " has been out");
+            //Debug.Log(gObject.name + " has been out");
             gObject.transform.position = gObject.GetComponent<ObjectBehaviour>().Socket.transform.position;
 
             gObject.transform.position = MakeRandomVector(gObject.transform.position);
