@@ -13094,6 +13094,8 @@ MonoBehaviour:
     type: 3}
   _pffPrefabs: {fileID: 1121496728158200637, guid: 8033d9e01779db74087ddbefa0994982,
     type: 3}
+  _successClip: {fileID: 8300000, guid: 5815306a042d5a24389cb230ba2bc917, type: 3}
+  _failureClip: {fileID: 8300000, guid: b061b882bc6a9704a99081a7b85ccdb9, type: 3}
   CursorActive: {fileID: 3286163911610860551, guid: 35485bb94336a784182126f026012c4a,
     type: 3}
   CursorInactive: {fileID: 3286163911610860551, guid: 8c9f9b574e946774d9e33fa61056e927,
