@@ -5,14 +5,8 @@ using static UnityEngine.GraphicsBuffer;
 
 public class CameraMovementBehaviour : MonoBehaviour
 {
-    [SerializeField] private float _mouseSensitivity = 100f; //  sensibilité de la souris
-    [SerializeField] private float _smooth = 0.2f;
     [SerializeField] private Transform _playerBody; // pour récupérer le transform du joueur
-    float xRotation = 0f; // rotation de base (au début on est tout droit)
-    private Vector3 _velocity = Vector3.zero;
 
-    private int interpolationFramesCount = 45;
-    private float elapsedFrames = 0;
     // Start is called before the first frame update
     public bool CameraActive { private get; set; } = true;
     void Start()
