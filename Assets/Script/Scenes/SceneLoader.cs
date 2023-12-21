@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
+    
+    [SerializeField] private AudioClip serverFailed;
+    [SerializeField] private AudioClip serverSuccess;
+
     public void Awake()
     {
         QualitySettings.vSyncCount = 1;
@@ -22,5 +26,17 @@ public class SceneLoader : MonoBehaviour
 #if UNITY_EDITOR
         UnityEditor.EditorApplication.isPlaying = false;
 #endif
+    }
+
+    public void PlayAudioServer(bool failed)
+    {
+        var i = GetComponent<AudioSource>();
+        if (!i)
+        {
+            i = gameObject.AddComponent<AudioSource>();
+        }
+
+        i.clip = failed ? serverFailed : serverSuccess;
+        i.Play();
     }
 }

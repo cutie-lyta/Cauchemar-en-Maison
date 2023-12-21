@@ -14,6 +14,7 @@ public class EndScript : MonoBehaviour
     [SerializeField] private GameObject panel;
     [SerializeField] private TextMeshProUGUI scoreText;
     [SerializeField] private TextMeshProUGUI timeText;
+
     // Start is called before the first frame update
     void Start()
     {

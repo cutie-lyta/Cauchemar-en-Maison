@@ -10,7 +10,9 @@ public class ObjectPositionner : MonoBehaviour
     [SerializeField] private RaycastBehaviour _raycast;
     [SerializeField] private GameObject _poofPrefabs;
     [SerializeField] private GameObject _pffPrefabs;
-    
+    [SerializeField] private AudioClip _successClip;
+    [SerializeField] private AudioClip _failureClip;
+
     public Sprite CursorActive; 
     public Sprite CursorInactive;
     
@@ -36,16 +38,21 @@ public class ObjectPositionner : MonoBehaviour
                     anim.EaseInTime = 8;
                     anim.EaseOutTime = 15;
                     anim.Play();
+
+                    var audio = gameObject.AddComponent<AudioSource>();
+                    audio.clip = _successClip;
+                    audio.Play();
                     
                     print("ntm");
 
-                    while (anim.IsFinished != true)
+                    while (!anim.IsFinished)
                     {
                         yield return new WaitForFixedUpdate();
                     }
                     
                     print("ntm");
-
+            
+                    Destroy(audio);
                     
                     gameObject.transform.position = objet.transform.position;
                     gameObject.transform.rotation = objet.transform.rotation;
@@ -72,6 +79,10 @@ public class ObjectPositionner : MonoBehaviour
                 color.Add(material.color);
                 material.color = new Color(1, 0, 0);
             }
+            
+            var audio = gameObject.AddComponent<AudioSource>();
+            audio.clip = _failureClip;
+            audio.Play();
 
             int countdown = 15;
             while (countdown >0)
@@ -91,6 +102,8 @@ public class ObjectPositionner : MonoBehaviour
                 countdown -= 1;
                 yield return new WaitForFixedUpdate();
             }
+
+            Destroy(audio);
             
             foreach(Material material in gameObject.GetComponent<Renderer>().materials){
                 var index = gameObject.GetComponent<Renderer>().materials.ToList().IndexOf(material);

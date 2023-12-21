@@ -14,7 +14,7 @@ public static class Server
         public float percentage;
         public ulong ms;
     }
-    
+
     public struct JSONScore
     {
         public string name;
@@ -28,13 +28,15 @@ public static class Server
         {
             yield return null;
         }
+
         WWWForm form = new WWWForm();
         form.AddField("name", nom);
         form.AddField("score", percentage.ToString());
         form.AddField("time", ms.ToString());
         Debug.Log($"name={nom}&score={percentage}&time={ms}");
 
-        UnityWebRequest www = UnityWebRequest.Post("https://cauchemarenmaison.000webhostapp.com/api/setNewScore.php", form);
+        UnityWebRequest www =
+            UnityWebRequest.Post("https://cauchemarenmaison.000webhostapp.com/api/setNewScore.php", form);
         yield return www.SendWebRequest();
 
         if (www.result != UnityWebRequest.Result.Success)
@@ -60,7 +62,7 @@ public static class Server
             score.name = nom;
             score.percentage = 0;
             score.ms = 0;
-            
+
             switch (webRequest.result)
             {
                 case UnityWebRequest.Result.ConnectionError:
@@ -69,49 +71,58 @@ public static class Server
                     break;
                 case UnityWebRequest.Result.Success:
                     var output = webRequest.downloadHandler.text.Split("|");
-                    
+
                     Debug.Log($"{output[0]}");
                     score.percentage = float.Parse(output[0]);
                     score.ms = UInt64.Parse(output[1]);
                     break;
             }
-            
+
             callBack?.Invoke(score);
         }
     }
-    
+
     public static IEnumerator GetScoreOfAll(Action<List<Score>> callBack)
     {
-        using (UnityWebRequest webRequest =
-               UnityWebRequest.Get("https://cauchemarenmaison.000webhostapp.com/api/getAllScore.php"))
+        try
         {
-            // Request and wait for the desired page.
-            yield return webRequest.SendWebRequest();
-
-            List<Score> scores = new();
-            
-            switch (webRequest.result)
+            using (UnityWebRequest webRequest =
+                   UnityWebRequest.Get("https://cauchemarenmaison.000webhostapp.com/api/getAllScore.php"))
             {
-                case UnityWebRequest.Result.ConnectionError:
-                case UnityWebRequest.Result.DataProcessingError:
-                case UnityWebRequest.Result.ProtocolError:
-                    break;
-                case UnityWebRequest.Result.Success:
-                    Debug.Log($"AAAAAAAAAAAAAAAAAAAA : {webRequest.downloadHandler.text}");
-                    scores = JsonConvert.DeserializeObject<List<Score>>(webRequest.downloadHandler.text);
-                    //List<JSONScore> jsonScores = JsonConvert.DeserializeObject<List<JSONScore>>(webRequest.downloadHandler.text);
-                    /*foreach (JSONScore jscore in jsonScores)
-                    {
-                        Score score;
-                        score.name = jscore.name;
-                        score.percentage = float.Parse(jscore.percentage);
-                        score.ms = UInt64.Parse(jscore.ms);
-                    }*/
-                    break;
+                // Request and wait for the desired page.
+                yield return webRequest.SendWebRequest();
+
+                List<Score> scores = new();
+
+                switch (webRequest.result)
+                {
+                    case UnityWebRequest.Result.ConnectionError:
+                    case UnityWebRequest.Result.DataProcessingError:
+                    case UnityWebRequest.Result.ProtocolError:
+                        GameObject.FindObjectOfType<SceneLoader>().PlayAudioServer(true);
+                        break;
+                    case UnityWebRequest.Result.Success:
+                        Debug.Log($"AAAAAAAAAAAAAAAAAAAA : {webRequest.downloadHandler.text}");
+                        scores = JsonConvert.DeserializeObject<List<Score>>(webRequest.downloadHandler.text);
+                        GameObject.FindObjectOfType<SceneLoader>().PlayAudioServer(false);
+
+                        //List<JSONScore> jsonScores = JsonConvert.DeserializeObject<List<JSONScore>>(webRequest.downloadHandler.text);
+                        /*foreach (JSONScore jscore in jsonScores)
+                        {
+                            Score score;
+                            score.name = jscore.name;
+                            score.percentage = float.Parse(jscore.percentage);
+                            score.ms = UInt64.Parse(jscore.ms);
+                        }*/
+                        break;
+                }
+
+                if (scores is not null) callBack?.Invoke(scores);
             }
-
-            if(scores is not null) callBack?.Invoke(scores);
         }
-
+        catch (Exception e)
+        {
+            GameObject.FindObjectOfType<SceneLoader>().PlayAudioServer(true);
+        }
     }
 }
