@@ -26,24 +26,21 @@ public class ClockBehaviour : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        this.TimerStart();
-    }
-
-    public void TimerStart()
-    {
         ObjectPositionner.Milliseconds = 0;
         _clock.sprite = _normalClockSprite;
 
         _flammes1.gameObject.SetActive(false);
         _flammes2.gameObject.SetActive(false);
         _flammes3.gameObject.SetActive(false);
+    }
 
+    public void TimerStart()
+    {
         StartCoroutine(_timerExecute());
     }
 
     IEnumerator _timerExecute()
     {
-        
         ObjectPositionner.Milliseconds += (ulong)((_minutes * 60 / 360) * 1000);
 
         if (!_isAngry && ObjectPositionner.Milliseconds >= (ulong)(_minutes * 60 * 1000 * 3/4 ))       //Gets Angry once 3/4 of the time is over
