@@ -4001,7 +4001,6 @@ RectTransform:
   - {fileID: 616853893}
   - {fileID: 1624975639}
   - {fileID: 442593762}
-  - {fileID: 1679916749}
   - {fileID: 35640923}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -8296,6 +8295,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1304945688}
+  - {fileID: 1679916749}
   m_Father: {fileID: 281853890}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -23144,6 +23144,7 @@ GameObject:
   - component: {fileID: 1679916752}
   - component: {fileID: 1679916751}
   - component: {fileID: 1679916750}
+  - component: {fileID: 1679916753}
   m_Layer: 5
   m_Name: nbDisplaced
   m_TagString: Untagged
@@ -23158,12 +23159,12 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679916748}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 281853890}
+  m_Father: {fileID: 616853893}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -23203,7 +23204,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 
+  m_text: 25
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: e5833834b76dce94a8b6d9fa039ce6e5, type: 2}
   m_sharedMaterial: {fileID: -7207921898132179582, guid: e5833834b76dce94a8b6d9fa039ce6e5,
@@ -23281,6 +23282,27 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1679916748}
   m_CullTransparentMesh: 1
+--- !u!95 &1679916753
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679916748}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cb2091b2d34776a40b206593c95b26e7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1706179239
 PrefabInstance:
   m_ObjectHideFlags: 0

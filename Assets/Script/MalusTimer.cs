@@ -25,7 +25,6 @@ public class MalusTimer : MonoBehaviour
         }
 
         print("zzzzzz");
-
     }
 
     // Start is called before the first frame update
