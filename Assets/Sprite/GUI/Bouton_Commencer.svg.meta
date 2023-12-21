@@ -39,16 +39,16 @@ ScriptedImporter:
   spriteData:
     TessellationDetail: 0
     SpriteRect:
-      name: 
+      name: Bouton_CommencerSprite
       originalName: 
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.499798, y: 0.5002083}
       alignment: 0
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 12, y: 12, z: 13, w: 12}
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 0
-        height: 0
+        width: 297
+        height: 96
       spriteID: 4923d84009f8bfd41a9c4b337f3165d7
     PhysicsOutlines: []
