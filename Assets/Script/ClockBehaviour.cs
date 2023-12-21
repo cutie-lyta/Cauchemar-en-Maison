@@ -21,13 +21,16 @@ public class ClockBehaviour : MonoBehaviour
     [Header("Animators")]
     [SerializeField] private Animator _clockAnimator;
 
+    private AudioSource _ring;
     private bool _isAngry = false;
 
     // Start is called before the first frame update
     void Start()
     {
         ObjectPositionner.Milliseconds = 0;
+
         _clock.sprite = _normalClockSprite;
+        _ring = GetComponent<AudioSource>();
 
         _flammes1.gameObject.SetActive(false);
         _flammes2.gameObject.SetActive(false);
@@ -66,6 +69,8 @@ public class ClockBehaviour : MonoBehaviour
         _clock.sprite = _angryClockSprite;
 
         _clockAnimator.SetTrigger("GetsAngry");
+
+        _ring.Play();
 
         _flammes1.gameObject.SetActive(true);
         _flammes2.gameObject.SetActive(true);
