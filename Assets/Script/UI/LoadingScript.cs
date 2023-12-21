@@ -13,6 +13,7 @@ public class LoadingScript : MonoBehaviour
     void Start()
     {
         _anim = GetComponent<Animator>();
+        StartCoroutine(Loading());
     }
 
     private IEnumerator Loading()
