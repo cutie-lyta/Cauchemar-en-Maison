@@ -1,12 +1,16 @@
+using Cinemachine;
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Animations;
 
 public class MovementBehaviour : MonoBehaviour
 {
 
-    [SerializeField] private float _speed = 1.0f; // vitesse du joueur
+    [SerializeField] public float _speed = 8.0f; // vitesse du joueur
     [SerializeField] private Rigidbody _rb ; // on prend un rigidbody pour faire des collisions
     [SerializeField] private Transform rotationVector;
+    [SerializeField] private CinemachineVirtualCamera _cam ;
     
     private bool _isCurrentlyColliding = false;
 
@@ -15,7 +19,13 @@ public class MovementBehaviour : MonoBehaviour
 
         if (col.gameObject.CompareTag("Finish"))
         {
-            FindObjectOfType<ObjectPositionner>().TimerFinished();
+
+            FindObjectOfType<CheckBeforeExit>().Panel.gameObject.SetActive(true);
+            Cursor.lockState = CursorLockMode.None;
+            _cam.GetCinemachineComponent<CinemachinePOV>().m_HorizontalAxis.m_MaxSpeed = 0;
+            _cam.GetCinemachineComponent<CinemachinePOV>().m_VerticalAxis.m_MaxSpeed = 0;
+            _speed = 0f;
+
         }
     }
  
