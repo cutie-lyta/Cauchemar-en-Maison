@@ -13444,7 +13444,7 @@ MonoBehaviour:
     type: 3}
   _pffPrefabs: {fileID: 1121496728158200637, guid: 8033d9e01779db74087ddbefa0994982,
     type: 3}
-  _successClip: {fileID: 8300000, guid: 5815306a042d5a24389cb230ba2bc917, type: 3}
+  _successClip: {fileID: 8300000, guid: f6751421ac48f684aafec8a0b26c1d99, type: 3}
   _failureClip: {fileID: 8300000, guid: b061b882bc6a9704a99081a7b85ccdb9, type: 3}
   CursorActive: {fileID: 3286163911610860551, guid: 35485bb94336a784182126f026012c4a,
     type: 3}
@@ -23311,7 +23311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Panel: {fileID: 1921626332}
   _cam: {fileID: 2101228427}
-  _movementBehaviour: {fileID: 1665250301}
+  _movementBehaviour: {fileID: 0}
 --- !u!1 &1648063524
 GameObject:
   m_ObjectHideFlags: 0
@@ -23661,18 +23661,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.001, y: 0.002, z: 0.0003}
   m_Center: {x: 0.000030367542, y: -0.0004215535, z: -0.00003552839}
---- !u!114 &1665250301 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8993866258184373411, guid: 28dfdf56114ebbd439935270b854f3e8,
-    type: 3}
-  m_PrefabInstance: {fileID: 1985208325}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58e91a83fd1e99549bff110467fbf055, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1667183430
 PrefabInstance:
   m_ObjectHideFlags: 0
