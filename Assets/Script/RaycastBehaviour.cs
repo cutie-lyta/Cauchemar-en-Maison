@@ -7,7 +7,7 @@ public class RaycastBehaviour : MonoBehaviour
     [SerializeField] private int _objDistance = 12;
     public event Action<GameObject> OnHit;
 
-    private GameObject _currentlyCollider;
+    private GameObject _currentlyCollider ;
     
     // Start is called before the first frame update
     void Start()

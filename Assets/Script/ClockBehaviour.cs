@@ -44,7 +44,6 @@ public class ClockBehaviour : MonoBehaviour
     IEnumerator _timerExecute()
     {
         
-        _pointer.rotation = Quaternion.Euler(0, 0, _pointer.rotation.eulerAngles.z - 1);
         ObjectPositionner.Milliseconds += (ulong)((_minutes * 60 / 360) * 1000);
 
         if (!_isAngry && ObjectPositionner.Milliseconds >= (ulong)(_minutes * 60 * 1000 * 3/4 ))       //Gets Angry once 3/4 of the time is over
@@ -58,6 +57,8 @@ public class ClockBehaviour : MonoBehaviour
             FindObjectOfType<ObjectPositionner>().TimerFinished();
             yield return null;
         }
+
+        _pointer.rotation = Quaternion.Euler(0, 0, -(ObjectPositionner.Milliseconds / ((_minutes * 60 / 360) * 1000)));
 
         yield return new WaitForSeconds(_minutes*60 / 360);
         StartCoroutine(_timerExecute());
