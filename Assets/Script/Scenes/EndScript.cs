@@ -53,7 +53,7 @@ public class EndScript : MonoBehaviour
 
             list.Sort((score, score1) =>
             {
-                var ret = score.percentage.CompareTo(score1.percentage);
+                var ret = -score.percentage.CompareTo(score1.percentage);
                 if (ret == 0) ret = score.ms.CompareTo(score1.ms);
                 return ret;
             });

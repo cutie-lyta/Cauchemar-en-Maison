@@ -16,10 +16,13 @@ public class MovementBehaviour : MonoBehaviour
 
     void OnCollisionEnter(Collision col) {
         _isCurrentlyColliding = true;
+    }
 
-        if (col.gameObject.CompareTag("Finish"))
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Finish"))
         {
-
+            print("Trigger Enter Finish");
             FindObjectOfType<CheckBeforeExit>().Panel.gameObject.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
             _cam.GetCinemachineComponent<CinemachinePOV>().m_HorizontalAxis.m_MaxSpeed = 0;
