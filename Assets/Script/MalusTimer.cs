@@ -12,19 +12,13 @@ public class MalusTimer : MonoBehaviour
     {
         var textMesh = GetComponentInChildren<TextMeshProUGUI>();
 
-        print("aaaeaeae");
-
         if (!@object.CompareTag("Displaced") && @object.GetComponent<ObjectBehaviour>())
         {
-            print("ccccccc");
-
             ObjectPositionner.Milliseconds += 5*1000;
             textMesh.text = "-5 sec";
             GetComponent<Animator>().SetTrigger("Malused"); // pour trigger l'animation dans l'animator (paramètre trigger)
 
         }
-
-        print("zzzzzz");
 
     }
 
