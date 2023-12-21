@@ -51,7 +51,13 @@ public class EndScript : MonoBehaviour
             print(scoresList.Length);
             print(timerList.Length);
 
-            list.Sort(((score, score1) => (int)(score.ms - score1.ms)));
+            list.Sort((score, score1) =>
+            {
+                var ret = score.percentage.CompareTo(score1.percentage);
+                if (ret == 0) ret = score.ms.CompareTo(score1.ms);
+                return ret;
+            });
+            
             for (int i = 0; i < 11; i++)
             {
                 if ((i+1)>list.Count)
