@@ -23,11 +23,16 @@ public class ScaleUpDown : MonoBehaviour
     public IEnumerator Animate()
     {
         _scaleDefault = transform.localScale.x;
+<<<<<<< Updated upstream
 
         var scalePercented1 = ScaleMax * transform.localScale.x / 100;
         print(scalePercented1);
         print(_scaleDefault);
         float byHowManyUp = scalePercented1/EaseInTime;
+=======
+        
+        float byHowManyUp = ScaleMax/EaseInTime;
+>>>>>>> Stashed changes
         while (_timer < EaseInTime)
         {
             transform.localScale += new Vector3(byHowManyUp, byHowManyUp, byHowManyUp);
@@ -46,7 +51,10 @@ public class ScaleUpDown : MonoBehaviour
             yield return new WaitForFixedUpdate();
         }
 
+<<<<<<< Updated upstream
         transform.localScale = new Vector3(_scaleDefault, _scaleDefault, _scaleDefault);
+=======
+>>>>>>> Stashed changes
         IsFinished = true;
         yield return null;
     }
